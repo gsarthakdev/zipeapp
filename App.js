@@ -34,8 +34,9 @@ function SendScreens() {
           tabBarStyle: { backgroundColor: "black" },
           tabBarInactiveTintColor: "#5E5E5E",
           tabBarActiveTintColor: "white",
-          tabBarIndicatorStyle: { backgroundColor: "white" },
-          tabBarLabelStyle: { textTransform: "none", fontSize: 16 },
+          tabBarIndicatorStyle: { backgroundColor: "white", height: 3,  },
+          tabBarLabelStyle: { textTransform: "none", fontSize: 18, fontWeight: '700',},
+          tabBarScrollEnabled: true
         }}
       >
         <TopTabs.Screen name="All Contacts" component={AllContactsScreen} />
